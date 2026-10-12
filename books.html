@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>campusx - browse books</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Campus Book Exchange</h1>
+  </header>
+
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="books.html">Browse</a>
+    <a href="list-book.html">Sell a book</a>
+  </nav>
+
+  <button id="btn1">Highlight the first card</button>
+
+  <div class="container">
+    <div class="box" id="card1">
+      <h3>Data Structures and Algorithms</h3>
+      <p>Author: Mark Allen Weiss</p>
+      <p>Subject: Computer Science</p>
+      <p>Condition: Good</p>
+      <button id="button1">Mark as Requested</button>
+      <p id="p1"></p>
+    </div>
+    <div class="box" id="card2">
+      <h3>Organic Chemistry</h3>
+      <p>Author: Paula Bruice</p>
+      <p>Subject: Chemistry</p>
+      <p>Condition: Almost new</p>
+      <button id="button2">Mark as Requested</button>
+      <p id="p2"></p>
+    </div>
+    <div class="box" id="card3">
+      <h3>Calculus</h3>
+      <p>Author: James Stewart</p>
+      <p>Subject: Maths</p>
+      <p>Condition: Fair</p>
+      <button id="button3">Mark as Requested</button>
+      <p id="p3"></p>
+    </div>
+    <div class="box" id="card4">
+      <h3>Introduction to Psychology</h3>
+      <p>Author: Morgan</p>
+      <p>Subject: Psychology</p>
+      <p>Condition: Good</p>
+      <button id="button4">Mark as Requested</button>
+      <p id="p4"></p>
+    </div>
+  </div>
+
+  <div class="search">
+    <h2>Looking for a book?</h2>
+    <input type="text" id="input1" placeholder="type the book name here">
+    <button id="btn2">Show book</button>
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

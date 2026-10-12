@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>campusx - sell a book</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Campus Book Exchange</h1>
+  </header>
+
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="books.html">Browse</a>
+    <a href="list-book.html">Sell a book</a>
+  </nav>
+
+  <h2 id="heading1">Put a book on exchange</h2>
+  <button id="btn1">Make the title bigger</button>
+  <button id="btn2">Hide or show the form</button>
+
+  <form id="form1">
+    <label>Your name:</label>
+    <input type="text" id="name">
+
+    <label>Book name:</label>
+    <input type="text" id="title">
+
+    <label>Author:</label>
+    <input type="text" id="author">
+
+    <label>Subject:</label>
+    <input type="text" id="subject">
+
+    <label>Condition of the book:</label>
+    <select id="condition">
+      <option value="">choose one</option>
+      <option value="Excellent">Excellent</option>
+      <option value="Good">Good</option>
+      <option value="Fair">Fair</option>
+      <option value="Poor">Poor</option>
+    </select>
+
+    <button type="submit">Add my book</button>
+  </form>
+
+  <div id="msg"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
